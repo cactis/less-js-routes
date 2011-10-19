@@ -25,6 +25,6 @@ module Less::Js::Routes::Config
     config.internal_debug = false
     config.ignore = []
     config.only = []
-    config.output_path = "#{Rails.public_path}/javascripts/less_routes.js"
+    config.output_path = "#{Rails.public_path}/javascripts"
   end
 end
